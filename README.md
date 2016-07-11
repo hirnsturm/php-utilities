@@ -8,7 +8,7 @@ A set of usefull PHP utilities.
 
 ## Installation
 ```bash
-composer require sle/utilities
+composer require sle/php-utilities
 ```
 
 ## List of Utilities

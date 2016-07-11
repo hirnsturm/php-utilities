@@ -67,14 +67,28 @@ class DebuggerUtility
             return print_r(json_encode($data), true);
         } elseif (is_object($data)) {
             self::$type = 'Object';
-            return var_dump($data);
+            return self::getVarDumpOutput($data);
         } elseif (is_object(json_encode($data, JSON_FORCE_OBJECT))) {
             self::$type = 'JSON Object';
-            return var_dump(json_encode($data, JSON_FORCE_OBJECT));
+            return self::getVarDumpOutput(json_encode($data, JSON_FORCE_OBJECT));
         } else {
             self::$type = 'Unknown';
             return 'Unsupported data type!';
         }
+    }
+
+    /**
+     * @param mixed $data
+     * @return string
+     */
+    protected static function getVarDumpOutput($data)
+    {
+        ob_start();
+        var_dump($data);
+        $dump = ob_get_contents();
+        ob_end_clean();
+
+        return $dump;
     }
 
     /**

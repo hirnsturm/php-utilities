@@ -1,0 +1,27 @@
+{
+    "name": "sle/php-utilities",
+    "description": "A set of usefull PHP utilities.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steve Lenz",
+            "email": "kontakt@steve-lenz.de"
+        }
+    ],
+    "keywords": [
+        "php",
+        "utilities",
+        "utility",
+        "debug",
+        "debugging"
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sle\\Utilities\\": "Utilities"
+        }
+    }
+}

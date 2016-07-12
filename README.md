@@ -1,7 +1,7 @@
 # Utilities
 
 ## What does it do?
-Provides set of usefull PHP utilities.
+Provides a set of usefull PHP utilities.
 
 ## Requirements
 - PHP 5.5 or heigher

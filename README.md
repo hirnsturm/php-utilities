@@ -28,3 +28,7 @@ Sle\Utilities
 
 ### Sle\Utilities\XSLT
 - XSLTUtility
+
+### Sle\Utilities\XML
+- XMLUtility
+- XSDValidator

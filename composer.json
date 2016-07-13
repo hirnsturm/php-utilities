@@ -14,7 +14,12 @@
         "utilities",
         "utility",
         "debug",
-        "debugging"
+        "debugging",
+        "password",
+        "XML",
+        "XSD",
+        "XSLT",
+        "Session"
     ],
     "require": {
         "php": ">=5.5"

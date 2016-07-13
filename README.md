@@ -25,3 +25,6 @@ Sle\Utilities
 ### Sle\Utilities\Security
 - PasswordCrypt
 - Session
+
+### Sle\Utilities\XSLT
+- XSLTUtility

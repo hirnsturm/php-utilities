@@ -1,7 +1,7 @@
 # Utilities
 
 ## What does it do?
-Provides a set of usefull PHP utilities.
+This library offers a set of usefull PHP utilities.
 
 ## Requirements
 - PHP 5.5 or heigher
@@ -11,7 +11,17 @@ Provides a set of usefull PHP utilities.
 composer require sle/php-utilities
 ```
 
+## Base Namespace of this library
+Sle\Utilities
+
 ## List of Utilities
+
+### Sle\Utilities
 - DebuggerUtility
+
+### Sle\Utilities\DataType
 - DateUtility
-- StringUtility
+
+### Sle\Utilities\Security
+- PasswordCrypt
+- Session

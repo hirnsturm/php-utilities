@@ -13,3 +13,4 @@ composer require sle/php-utilities
 
 ## List of Utilities
 - DebuggerUtility
+- DateUtility

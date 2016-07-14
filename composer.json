@@ -19,7 +19,10 @@
         "XML",
         "XSD",
         "XSLT",
-        "Session"
+        "Session",
+        "google",
+        "maps",
+        "geocoding"
     ],
     "require": {
         "php": ">=5.5"

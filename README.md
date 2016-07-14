@@ -32,3 +32,6 @@ Sle\Utilities
 ### Sle\Utilities\XML
 - XMLUtility
 - XSDValidator
+
+### Sle\Utilities\Google\Maps
+- Geocoding

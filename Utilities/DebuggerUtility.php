@@ -16,6 +16,15 @@ class DebuggerUtility
     protected static $type = '';
 
     /**
+     * Enables php error_reporting (E_ALL) and display_errors
+     */
+    public static function enableErrorReporting()
+    {
+        ini_set('error_reporting', E_ALL);
+        ini_set('display_errors', 1);
+    }
+
+    /**
      * Returns or prints out debugging output
      *
      * @param mixed $data

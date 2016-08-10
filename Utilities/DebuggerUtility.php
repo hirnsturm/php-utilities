@@ -16,11 +16,13 @@ class DebuggerUtility
     protected static $type = '';
 
     /**
-     * Enables php error_reporting (E_ALL) and display_errors
+     * Enables php error_reporting and display_errors
+     *
+     * @param int $level
      */
-    public static function enableErrorReporting()
+    public static function enableErrorReporting($level = E_ALL)
     {
-        ini_set('error_reporting', E_ALL);
+        ini_set('error_reporting', $level);
         ini_set('display_errors', 1);
     }
 

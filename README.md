@@ -20,7 +20,10 @@ Sle\Utilities
 - DebuggerUtility
 
 ### Sle\Utilities\DataType
+- ArrayHelper
 - DateUtility
+- StringUtility
+
 
 ### Sle\Utilities\Security
 - PasswordCrypt

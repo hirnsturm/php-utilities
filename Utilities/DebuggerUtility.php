@@ -133,12 +133,14 @@ class DebuggerUtility
 				        padding:0;
 				        font-family: Consolas;
 				        font-size:12px;
+				        resize: both;
+                        overflow: auto;
+                        height:300px;
 				    }
 				    div.sle-debuggerutility-debug-title {
 				        padding:10px;
 				    }
 				    pre.sle-debuggerutility-debug-output {
-                        max-height:300px;
                         overflow:auto;
                         color:#eee;
                         background-color:#333;

@@ -29,6 +29,9 @@ Sle\Utilities
 - PasswordCrypt
 - Session
 
+### Sle\Utilities\Service
+- CsvService::loadCvsAsAssocArray()
+
 ### Sle\Utilities\XSLT
 - XSLTUtility
 

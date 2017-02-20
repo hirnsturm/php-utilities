@@ -45,4 +45,25 @@ class CsvService
         return $array;
     }
 
+    /**
+     * @param string $file Filename with path
+     * @param array $array Data
+     * @param string $mode
+     */
+    public static function writeAssocArrayIntoCsvFile($file, array $array, $mode = 'w+')
+    {
+        $header = false;
+        $file = new \SplFileObject($file, $mode);
+
+        foreach ($array as $row) {
+            if (false == $header) {
+                $file->fputcsv(array_keys($row));
+                $file->fputcsv($row); // do the first row of data too
+                $header = true;
+            } else {
+                $file->fputcsv($row);
+            }
+        }
+    }
+
 }

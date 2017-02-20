@@ -31,6 +31,7 @@ Sle\Utilities
 
 ### Sle\Utilities\Service
 - CsvService::loadCvsAsAssocArray()
+- CsvService::writeAssocArrayIntoCsvFile()
 
 ### Sle\Utilities\XSLT
 - XSLTUtility
